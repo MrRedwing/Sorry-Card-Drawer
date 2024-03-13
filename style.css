@@ -16,9 +16,24 @@ p {
   color: gray;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #172554;
+  }
+  h1,
+  p {
+    color: #ffffff;
+  }
+}
+
 .content {
   font-family: sans-serif;
   text-align: center;
+}
+
+.line-clamped {
+  line-height: 1.5;
+  height: 4lh;
 }
 
 .btn {
@@ -38,7 +53,8 @@ p {
 }
 
 #card-content {
-  padding: 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 #card-title,
